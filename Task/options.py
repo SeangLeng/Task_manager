@@ -4,5 +4,6 @@ def manu():
     print("2. Add new task")
     print("3. Updating the task")
     print("4. Delete task")
-    print("5. Delete history")
+    print("5. save task")
+    print("6. See history")
     print("Press \"stop\" to exit system")

@@ -1,3 +1,4 @@
+from Data_storage.save_to_file import save_to_file
 from Features.History_delete import history_delete_task
 from Features.add_task import add_new_task
 from Features.delete import delete_task
@@ -16,7 +17,10 @@ while True:
         update_task()
     elif choice in ('4', 'delete task'):
         delete_task()
-    elif choice in ('5', 'delete history'):
+    elif choice in ('5', 'save task'):
+        # save to file
+        save_to_file()
+    elif choice in ('6', 'Save your data'):
         history_delete_task()
     else:
         print("Exiting... ")

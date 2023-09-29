@@ -3,7 +3,7 @@ from Data_storage.tasks import history_removed_task, tasks
 
 def history_delete_task():
     for i, h_task in enumerate(history_removed_task):
-        print(f'\nTask {i + 1}: ')
+        print(f'\nTask {h_task.task_id}: ')
         print(f'Title: {h_task.title}')
         print(f'\tDescription: {h_task.description}')
         print(f'\tDue_date: {h_task.due_date}')
